@@ -1,0 +1,46 @@
+body {
+    background-image: url('https://imgs.search.brave.com/eC3M17Z_p2ZWHlBhf6ekismAdrCt-CyPXJaYxImb-rs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIx/MTI5MzgxMS9mci9w/aG90by9taWxreS13/YXktZ2FsYXh5LXdp/dGgtc3RhcnMtYW5k/LXNwYWNlLWR1c3Qt/aW4tdGhlLXVuaXZl/cnNlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0tbXFieExs/VHlldzhONVRqcXEw/SFdnUHh3bTQ2ZVpS/MjF2M053OUNhVVhV/PQ'); /* chemin de l'image de fond */
+    background-repeat: no-repeat;      /* empêche la répétition */
+    background-size: 100% 100%;       /* force l'image à remplir la page */
+    background-position: center;       /* centre l'image */
+    background-attachment: fixed;      /* optionnel : l'image reste fixe au scroll */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;                        /* souvent mieux de mettre 0 si tu veux remplir */
+    height: 100vh;                     /* assure que le body prend toute la fenêtre */
+}
+h1 {  
+    color: #ffffff;  
+    text-align: center;  
+}
+h3 {  
+    color: #ffffff;  
+    text-align: center;  
+}
+.img.logo.debian {  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 100px;  
+}/* Appliquer Roboto Condensed à tout le site */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.square-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
+p a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer le soulignement */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition pour l'effet de survol */
+}
