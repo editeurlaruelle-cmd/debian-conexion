@@ -1,13 +1,15 @@
 body {
-    background-image: url('https://imgs.search.brave.com/eC3M17Z_p2ZWHlBhf6ekismAdrCt-CyPXJaYxImb-rs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIx/MTI5MzgxMS9mci9w/aG90by9taWxreS13/YXktZ2FsYXh5LXdp/dGgtc3RhcnMtYW5k/LXNwYWNlLWR1c3Qt/aW4tdGhlLXVuaXZl/cnNlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz0tbXFieExs/VHlldzhONVRqcXEw/SFdnUHh3bTQ2ZVpS/MjF2M053OUNhVVhV/PQ'); /* chemin de l'image de fond */
-    background-repeat: no-repeat;      /* empêche la répétition */
-    background-size: 100% 100%;       /* force l'image à remplir la page */
-    background-position: center;       /* centre l'image */
-    background-attachment: fixed;      /* optionnel : l'image reste fixe au scroll */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;                        /* souvent mieux de mettre 0 si tu veux remplir */
-    height: 100vh;                     /* assure que le body prend toute la fenêtre */
+    background: linear-gradient(
+        45deg, 
+        #9639ec 0%, 
+        #b25ff5 25%, 
+        #7a2dcf 50%, 
+        #b25ff5 75%, 
+        #9639ec 100%
+    );
+    background-size: 400% 400%; /* pour animation optionnelle */
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h1 {  
     color: #ffffff;  
@@ -29,7 +31,7 @@ body {
 .square-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF; /* Couleur de fond */
+    background-color: #000000; /* Couleur de fond */
     color: #fff; /* Couleur du texte */
     text-decoration: none; /* Supprimer le soulignement */
     border-radius: 5px; /* Coins arrondis */
@@ -38,7 +40,7 @@ body {
 p a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF; /* Couleur de fond */
+    background-color: #000000; /* Couleur de fond */
     color: #fff; /* Couleur du texte */
     text-decoration: none; /* Supprimer le soulignement */
     border-radius: 5px; /* Coins arrondis */
